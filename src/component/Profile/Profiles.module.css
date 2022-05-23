@@ -1,0 +1,12 @@
+.content {
+    grid-area: c;
+    background-color: rgb(246, 246, 161);
+  }
+  .content img {
+  
+    width: 700px;
+  }
+
+  .item {
+   color: purple;
+  }
