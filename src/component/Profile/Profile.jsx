@@ -1,15 +1,18 @@
 import React from "react";
-import MyPosts from "./myPosts/MyPosts";
+import { addPost } from "../redux/store";
+import {MyPosts} from "./myPosts/MyPosts";
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
-import c from "./Profiles.module.css";
+import c from "./Profile.module.css"
+import { MyPostsContainer } from "./myPosts/MyPostsСontainer";
 
-const Profile = () => {
+const Profile = (props) => {
+
   return (
     <div>
 
       <div>
         <ProfileInfo/>
-        <MyPosts />
+        <MyPostsContainer />
       </div>
 
     </div>
